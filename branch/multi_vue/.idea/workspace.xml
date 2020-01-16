@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f782ffd-a8e3-4b34-815f-2ff01283b57b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/macgit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/flow.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/src/main/java/org/flowable/CallExternalSystemDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/src/main/java/org/flowable/SendRejectionMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/src/main/java/org/flowable/flowable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/src/main/resources/holiday-request.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flow/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/cloud-feign/src/main/java/com/example/cloudfeign/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/cloud-feign/src/main/java/com/example/cloudfeign/feign/RemoteFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/cloud-feign/src/main/java/com/example/cloudfeign/hystrix/HelloRemoteHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/cloud-producer/src/main/java/com/example/cloudproducer/APIFeignService/FeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/cloud-producer/src/main/java/com/example/cloudproducer/web/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/file-upload/src/main/java/com/example/fileupload/common/JSONResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/file-upload/src/main/java/com/example/fileupload/config/MongoConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/file-upload/src/main/java/com/example/fileupload/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/file-upload/src/main/java/com/example/fileupload/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/file-upload/src/main/java/com/example/fileupload/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/file-upload/src/main/java/com/example/fileupload/web/MongoDBGFSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/lib/Dm7JdbcDriver17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/flowabledm/controller/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/flowabledm/controller/dmController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/flowabledm/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/flowabledm/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/flowabledm/mapper/UpdateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/flowabledm/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/flowabledm/service/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/flowabledm/service/impl/CallExternalSystemDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/flowabledm/service/impl/SendRejectionMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/generator/common/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/generator/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/java/com/example/generator/generator/mpGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/resources/processes/holiday-request.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable-dm/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/flowable_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/java/com/me/CallExternalSystemDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/java/com/me/SendRejectionMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/java/org/flowable/CallExternalSystemDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/java/org/flowable/SendRejectionMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/java/org/flowable/flo/CallExternalSystemDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/java/org/flowable/flo/SendRejectionMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/java/org/flowable/flowable/flowable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/resources/holiday-request.bpmn20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/test.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources/110d1ba2-e5e9-49f2-ac9b-5e7d4192d9c2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources/110d1ba2-e5e9-49f2-ac9b-5e7d4192d9c2/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources/110d1ba2-e5e9-49f2-ac9b-5e7d4192d9c2/storage_v2/_src_/schema/vhr.AMgBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources/110d1ba2-e5e9-49f2-ac9b-5e7d4192d9c2/storage_v2/_src_/schema/vhr.AMgBAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/multi-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/src/main/java/com/multi/multicommon/MultiCommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/src/test/java/com/multi/multicommon/MultiCommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/multi-eurekaserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/src/main/java/com/multi/multieureka/MultiEurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/src/test/java/com/multi/multieureka/MultiEurekaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/target/classes/com/multi/multieureka/MultiEurekaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/target/test-classes/com/multi/multieureka/MultiEurekaApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/multi-userservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/MultiUserserviceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/config/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/entity/SysRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/entity/SysUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/entity/SysUserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/service/impl/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/web/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/static/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/test/java/com/multi/multiuserservice/MultiUserserviceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/META-INF/multi-userservice.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/MultiUserserviceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/config/SecurityConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/entity/SysRoleEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/entity/SysUserEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/entity/SysUserRoleEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/mapper/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/mapper/SysUserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/service/SysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/service/impl/UserDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/web/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/static/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/test-classes/com/multi/multiuserservice/MultiUserserviceApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud-multi/springcloud-multi.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="multi_vue" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/Downloads/apache-maven-3.5.4/amosres" />
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="$USER_HOME$/Downloads/apache-maven-3.5.4/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WSqP3zRFSb0vzrfIXCTA533D0u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f782ffd-a8e3-4b34-815f-2ff01283b57b" name="Default Changelist" comment="" />
+      <created>1579153315979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579153315979</updated>
+      <workItem from="1579153317352" duration="11110000" />
+      <workItem from="1579182801675" duration="5757000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="340" y="114" key="#ESLint" timestamp="1579185780302">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="340" y="114" key="#ESLint/0.23.1440.813@0.23.1440.813" timestamp="1579185780302" />
+    <state x="340" y="115" key="#ESLint/0.23.1440.821@0.23.1440.821" timestamp="1579154446513" />
+    <state x="431" y="75" key="#Inspections" timestamp="1579157948167">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="431" y="75" key="#Inspections/0.23.1440.815@0.23.1440.815" timestamp="1579157948167" />
+    <state x="249" y="88" key="SettingsEditor" timestamp="1579153428200">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="249" y="88" key="SettingsEditor/0.23.1440.815@0.23.1440.815" timestamp="1579153428200" />
+    <state x="419" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1579182801630">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="419" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1579182801630" />
+    <state x="410" y="176" width="667" height="486" key="find.popup" timestamp="1579161852682">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="410" y="176" width="667" height="486" key="find.popup/0.23.1440.815@0.23.1440.815" timestamp="1579161852682" />
+  </component>
+</project>
