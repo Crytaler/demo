@@ -4,7 +4,7 @@
         <el-header class="homeHeader">
           <div class="title">微服务</div>
           <div>
-            <el-button icon="el-icon-bell" type="text" style="margin-right: 8px;color: #000000;" size="normal" @click="goChat"></el-button>
+            <el-button icon="el-icon-bell" type="text" style="margin-right: 8px;color: #000000;" size="normal"></el-button>
             <el-dropdown class="userinfo" @command="handleCommand">
   <span class="el-dropdown-link">
     {{userinfo.username}}<img :src="userinfo.userface" alt="">
@@ -12,7 +12,7 @@
               <el-dropdown-menu slot="dropdown">
                 <el-dropdown-item command="userinfo">个人中心</el-dropdown-item>
                 <el-dropdown-item command="setting">设置</el-dropdown-item>
-                <el-dropdown-item command="logout">注销登录</el-dropdown-item>
+                <el-dropdown-item command="logout" divided>注销登录</el-dropdown-item>
                 <el-dropdown-item command="updatepassword" disabled>修改密码</el-dropdown-item>
               </el-dropdown-menu>
             </el-dropdown>
@@ -20,21 +20,20 @@
           </div>
         </el-header>
         <el-container>
-          <el-aside width="200px"><el-menu :default-openeds="['1']">
-            <el-submenu index="1">
-              <template slot="title"><i class="el-icon-message"></i>导航一</template>
-              <el-menu-item-group>
-                <template slot="title">分组一</template>
-                <el-menu-item index="1-1">选项1</el-menu-item>
-                <el-menu-item index="1-2">选项2</el-menu-item>
-              </el-menu-item-group>
-              <el-menu-item-group title="分组2">
-                <el-menu-item index="1-3">选项3</el-menu-item>
-              </el-menu-item-group>
-              <el-submenu index="1-4">
-                <template slot="title">选项4</template>
-                <el-menu-item index="1-4-1">选项4-1</el-menu-item>
-              </el-submenu>
+          <el-aside width="200px">
+            <el-menu
+              router unique-opened
+              background-color="#545c64"
+              text-color="#fff"
+              active-text-color="#ffd04b">
+            <el-submenu :index="index+''" v-for="(item,index) in menus" v-if="!item.hidden" :key="index">
+              <template slot="title">
+                <i style="color: #409eff;margin-right: 5px" :class="item.icon"></i>
+                <span>{{item.name}}</span>
+              </template>
+              <el-menu-item :index="child.path"  v-for="(child,indexj) in item.children" :key="indexj">
+                {{child.name}}
+              </el-menu-item>
             </el-submenu>
           </el-menu>
           </el-aside>
@@ -54,6 +53,8 @@
 </template>
 
 <script>
+import {getRequest} from '../utils/api'
+
 export default {
   name: 'Home',
   data () {
@@ -61,11 +62,32 @@ export default {
       userinfo: JSON.parse(window.sessionStorage.getItem('userinfo'))
     }
   },
+  computed: {
+    menus () {
+      return this.$store.state.menus
+    }
+  },
   methods: {
     handleCommand (command) {
-      // eslint-disable-next-line eqeqeq
-      if (command == 'userinfo') {
+      if (command === 'userinfo') {
         this.$router.push('test')
+      } else if (command === 'logout') {
+        this.$confirm('此操作将注销登录, 是否继续?', '提示', {
+          confirmButtonText: '确定',
+          cancelButtonText: '取消',
+          type: 'warning'
+        }).then(() => {
+          getRequest('/logout')
+          window.sessionStorage.removeItem('userinfo')
+          console.log('退出')
+          this.$store.commit('initRoutes', [])
+          this.$router.replace('/')
+        }).catch(() => {
+          this.$message({
+            type: 'info',
+            message: '已取消操作'
+          })
+        })
       }
     }
   }

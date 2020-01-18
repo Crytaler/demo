@@ -52,92 +52,36 @@
       <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/java/org/flowable/flowable/flowable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/resources/holiday-request.bpmn20.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flowable_demo/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/Home.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/test.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources/110d1ba2-e5e9-49f2-ac9b-5e7d4192d9c2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources/110d1ba2-e5e9-49f2-ac9b-5e7d4192d9c2/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources/110d1ba2-e5e9-49f2-ac9b-5e7d4192d9c2/storage_v2/_src_/schema/vhr.AMgBAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/dataSources/110d1ba2-e5e9-49f2-ac9b-5e7d4192d9c2/storage_v2/_src_/schema/vhr.AMgBAA.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/multi-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/src/main/java/com/multi/multicommon/MultiCommonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-common/src/test/java/com/multi/multicommon/MultiCommonApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/multi-eurekaserver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/src/main/java/com/multi/multieureka/MultiEurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/src/test/java/com/multi/multieureka/MultiEurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/target/classes/com/multi/multieureka/MultiEurekaApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-eurekaserver/target/test-classes/com/multi/multieureka/MultiEurekaApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/multi-userservice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/MultiUserserviceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/config/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/entity/SysRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/entity/SysUserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/entity/SysUserRoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/mapper/SysRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/mapper/SysUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/service/impl/UserDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/java/com/multi/multiuserservice/web/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/static/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/main/resources/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/src/test/java/com/multi/multiuserservice/MultiUserserviceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/META-INF/multi-userservice.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/MultiUserserviceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/config/SecurityConfig$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/config/SecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/entity/SysRoleEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/entity/SysUserEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/entity/SysUserRoleEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/mapper/SysRoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/mapper/SysUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/mapper/SysUserRoleMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/service/SysUserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/service/impl/SysUserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/service/impl/UserDetailServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/com/multi/multiuserservice/web/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/static/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/classes/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/multi-userservice/target/test-classes/com/multi/multiuserservice/MultiUserserviceApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud-multi/springcloud-multi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/sys/List.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/sys/SysDetail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/user/Setting.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-multi" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-multi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="multi_vue" />
@@ -145,8 +89,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -198,6 +142,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -222,34 +167,60 @@
       <option name="presentableId" value="Default" />
       <updated>1579153315979</updated>
       <workItem from="1579153317352" duration="11110000" />
-      <workItem from="1579182801675" duration="5757000" />
+      <workItem from="1579182801675" duration="6256000" />
+      <workItem from="1579236197214" duration="10972000" />
+      <workItem from="1579250525049" duration="9285000" />
+      <workItem from="1579327941681" duration="11582000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化vue项目">
+      <created>1579189502910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579189502910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化vue项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化vue项目" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="340" y="114" key="#ESLint" timestamp="1579185780302">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state x="340" y="114" key="#ESLint" timestamp="1579347925613">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
+    <state x="340" y="114" key="#ESLint/0.23.1440.811@0.23.1440.811" timestamp="1579347925613" />
     <state x="340" y="114" key="#ESLint/0.23.1440.813@0.23.1440.813" timestamp="1579185780302" />
+    <state x="340" y="114" key="#ESLint/0.23.1440.815@0.23.1440.815" timestamp="1579335451011" />
     <state x="340" y="115" key="#ESLint/0.23.1440.821@0.23.1440.821" timestamp="1579154446513" />
     <state x="431" y="75" key="#Inspections" timestamp="1579157948167">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
     <state x="431" y="75" key="#Inspections/0.23.1440.815@0.23.1440.815" timestamp="1579157948167" />
+    <state x="338" y="23" key="CommitChangelistDialog2" timestamp="1579189457339">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="338" y="23" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1579189457339" />
     <state x="249" y="88" key="SettingsEditor" timestamp="1579153428200">
       <screen x="0" y="23" width="1440" height="815" />
     </state>
     <state x="249" y="88" key="SettingsEditor/0.23.1440.815@0.23.1440.815" timestamp="1579153428200" />
-    <state x="419" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1579182801630">
+    <state x="344" y="138" key="Vcs.Push.Dialog.v2" timestamp="1579189781172">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="344" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1579189781172" />
+    <state x="419" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1579236197274">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="419" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1579182801630" />
-    <state x="410" y="176" width="667" height="486" key="find.popup" timestamp="1579161852682">
-      <screen x="0" y="23" width="1440" height="815" />
+    <state x="419" y="251" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1579236197274" />
+    <state x="410" y="178" width="667" height="492" key="find.popup" timestamp="1579253908585">
+      <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="410" y="176" width="667" height="486" key="find.popup/0.23.1440.815@0.23.1440.815" timestamp="1579161852682" />
+    <state x="410" y="178" width="667" height="492" key="find.popup/0.23.1440.824@0.23.1440.824" timestamp="1579253908585" />
   </component>
 </project>

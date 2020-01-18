@@ -49,17 +49,13 @@ export default {
           this.postKeyValueRequest('/doLogin', this.loginForm).then(resp => {
             this.loading = false
             if (typeof (resp.data.obj) === 'undefined' || resp.data.obj === null) {
-              console.log('错误页面')
               let path = this.$route.query.redirect
-              // eslint-disable-next-line eqeqeq
-              this.$router.replace((path == '/' || path == undefined) ? '/test' : path)
+              this.$router.replace((path === '/' || path === undefined) ? '/test' : path)
             } else {
-              console.log(resp.data.obj)
               // this.$store.commit('INIT_CURRENTHR', resp.obj);
               window.sessionStorage.setItem('userinfo', JSON.stringify(resp.data.obj))
               let path = this.$route.query.redirect
-              // eslint-disable-next-line eqeqeq
-              this.$router.replace((path == '/' || path == undefined) ? '/home' : path)
+              this.$router.replace((path === '/' || path === undefined) ? '/home' : path)
             }
           })
         } else {
@@ -88,5 +84,9 @@ export default {
     margin: 15px auto 20px auto;
     text-align: center;
     color: #505458;
+  }
+  .loginRemember {
+    text-align: left;
+    margin: 0px 0px 15px 0px;
   }
 </style>

@@ -19,3 +19,27 @@ export const postKeyValueRequest = (url, params) => {
     }
   })
 }
+export const putRequest = (url, params) => {
+  return axios({
+    method: 'put',
+    // eslint-disable-next-line no-template-curly-in-string
+    url: `${base}${url}`,
+    data: params
+  })
+}
+
+export const getRequest = (url, params) => {
+  return axios({
+    method: 'get',
+    // eslint-disable-next-line no-template-curly-in-string
+    url: `${base}${url}`,
+    data: params
+  })
+}
+export const postRequest = (url, params) => {
+  return axios({
+    method: 'post',
+    url: `${base}${url}`,
+    data: params
+  })
+}

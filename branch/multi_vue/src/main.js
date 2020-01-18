@@ -10,12 +10,27 @@ import 'element-ui/lib/theme-chalk/index.css'
 import store from './store/index.js'
 
 import {postKeyValueRequest} from './utils/api'
+import {initMenu} from './utils/menu'
 
 Vue.prototype.postKeyValueRequest = postKeyValueRequest
 Vue.config.productionTip = false
 
 Vue.use(ElementUI)
 Vue.prototype.$axios = Axios
+
+router.beforeEach((to, from, next) => {
+  if (to.path === '/') {
+    console.log(to.path)
+    next()
+  } else {
+    if (window.sessionStorage.getItem('userinfo')) {
+      initMenu(router, store)
+      next()
+    } else {
+      next('/?redirect=' + to.path)
+    }
+  }
+})
 
 /* eslint-disable no-new */
 new Vue({
