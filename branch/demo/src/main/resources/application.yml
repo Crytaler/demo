@@ -1,0 +1,42 @@
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zyjc?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 629436
+    # 初始化大小，最小，最大
+    initialSize: 5
+    minIdle: 5
+    maxActive: 100
+    maxWait: 60000
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计
+    # 监控统计用的filter:stat日志用的filter:log4j防御sql注入的filter:wall
+    filters: stat
+    # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/Test
+    servlet:
+      multipart:
+        #是否支持批量上传
+        enabled: true
+        #上传文件最大为 100M
+        max-file-size: 100MB
+        #上传总数据大小 200M
+        max-request-size: 200MB
+
+swagger:
+  enable: true
+
+mybatis-plus:
+  mapper-locations: classpath:mappers/*Mapper.xml
+  type-aliases-package: com.ys.decision.bean
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: false
+server:
+  port: 8210
+
