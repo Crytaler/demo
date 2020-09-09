@@ -5,6 +5,7 @@ import com.example.demo.entity.ZyjcUser;
 import com.example.demo.service.IZyjcUserService;
 import com.example.demo.util.ExcelUtils;
 import com.example.demo.util.ExportPdf;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -30,10 +31,12 @@ public class ZyjcUserController {
     private IZyjcUserService iZyjcUserService;
 
     @GetMapping("testPDF")
-    public void test(HttpServletRequest request, HttpServletResponse response) {
-        List<ZyjcUser> list = iZyjcUserService.list();
+    @RequiresPermissions({"select"})
+    public void test(@RequestHeader("token")String token,HttpServletRequest request, HttpServletResponse response) {
+//        List<ZyjcUser> list = iZyjcUserService.list();
         try {
-            ExportPdf.ExportPdf(request,response,list);
+//            ExportPdf.ExportPdf(request,response,list);
+            System.out.println("ceshi");
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -77,7 +77,7 @@ public class generator {
             dsc.setDriverName("com.mysql.cj.jdbc.Driver");
             dsc.setUsername("root");
             dsc.setPassword("629436");
-            dsc.setUrl("jdbc:mysql://localhost:3306/zyjc?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai");
+            dsc.setUrl("jdbc:mysql://localhost:3306/shiro?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai");
             mpg.setDataSource(dsc);
 
             // 包配置
