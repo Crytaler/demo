@@ -1,9 +1,7 @@
-
-
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/zyjc?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/shiro?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: 629436
     # 初始化大小，最小，最大
@@ -16,9 +14,9 @@ spring:
     filters: stat
     # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
-  data:
-    mongodb:
-      uri: mongodb://127.0.0.1:27017/Test
+#  data:
+#    mongodb:
+#      uri: mongodb://127.0.0.1:27017/Test
     servlet:
       multipart:
         #是否支持批量上传
@@ -27,12 +25,19 @@ spring:
         max-file-size: 100MB
         #上传总数据大小 200M
         max-request-size: 200MB
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: yxbt_db
+    solr:
+      host: http://192.168.1.14:8983/solr
 
 swagger:
-  enable: true
+  enabled: true
 
 mybatis-plus:
-  mapper-locations: classpath:mappers/*Mapper.xml
+  mapper-locations: classpath:mapper/*Mapper.xml
   type-aliases-package: com.ys.decision.bean
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
