@@ -3,6 +3,7 @@ package com.example.demo.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.example.demo.annotation.Record;
 import com.example.demo.entity.ZyjcDrug;
 import com.example.demo.entity.ZyjcUser;
 import com.example.demo.service.IZyjcDrugService;
@@ -28,21 +29,22 @@ public class ZyjcDrugController {
     private IZyjcDrugService iZyjcDrugService;
 
     @GetMapping("test")
-    public boolean save() {
+    @Record(operate = "add",name = "添加")
+    public String save() {
         ZyjcDrug zyjcDrug = new ZyjcDrug();
         zyjcDrug.setDrugName("测试ing0623");
-        boolean save = iZyjcDrugService.save(zyjcDrug);
-        return save;
+//        boolean save = iZyjcDrugService.save(zyjcDrug);
+        return "";
     }
 
     @GetMapping("page")
-    public Page<ZyjcDrug> page() {
-        QueryWrapper<ZyjcDrug> wrapper = new QueryWrapper<>();
-        Page<ZyjcDrug> page = new Page<>();
-        page.setCurrent(2);
-        page.setSize(20);
-        Page<ZyjcDrug> drugPage = iZyjcDrugService.page(page, wrapper);
-        return drugPage;
+    public String page() {
+//        QueryWrapper<ZyjcDrug> wrapper = new QueryWrapper<>();
+//        Page<ZyjcDrug> page = new Page<>();
+//        page.setCurrent(2);
+//        page.setSize(20);
+//        Page<ZyjcDrug> drugPage = iZyjcDrugService.page(page, wrapper);
+        return "success";
     }
 
 }
