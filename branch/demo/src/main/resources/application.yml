@@ -32,6 +32,11 @@ spring:
       database: yxbt_db
     solr:
       host: http://192.168.1.14:8983/solr
+  redis:
+    host: 192.168.0.109
+    port: 6379
+    password:
+    timeout: 20000
 
 swagger:
   enabled: true
